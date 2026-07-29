@@ -42,11 +42,11 @@ Become a professional Data Analyst by mastering:
 
 
 
-\- \[ ] Tables
+\- \[x] Tables
 
-\- \[ ] Pivot Tables
+\- \[x] Pivot Tables
 
-\- \[ ] XLOOKUP
+\- \[x] XLOOKUP
 
 \- \[ ] Power Query
 
