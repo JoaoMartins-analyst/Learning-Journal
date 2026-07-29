@@ -2,7 +2,7 @@
 
 
 
-I learned to format tables, pivot tables and functions
+I learned to format tables, pivot tables and functions. I also learned XLOOKUP.
 
 I learned about the difference about aggregate, single output and spilled array formula.
 
