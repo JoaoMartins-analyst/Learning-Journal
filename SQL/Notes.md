@@ -6,3 +6,19 @@ I learned how to use the select and where functions, along with operators like B
 
 Practiced and completed a few exercises using this knowledge.
 
+
+
+\# DAY 2
+
+
+
+= means EXACT match
+
+
+
+LIKE means PATTERN match
+
+
+
+% means "anything can go here"
+
