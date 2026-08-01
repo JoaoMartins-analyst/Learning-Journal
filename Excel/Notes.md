@@ -1,76 +1,76 @@
-\## Day 1
+## Day 1
 
 
 
-I learned to format tables, pivot tables and functions. I also learned XLOOKUP.
+- I learned to format tables, pivot tables and functions. I also learned XLOOKUP.
 
-I learned about the difference about aggregate, single output and spilled array formula.
+- I learned about the difference about aggregate, single output and spilled array formula.
 
-I built and formatted a functional table and pivot table with this knowledge.
+- I built and formatted a functional table and pivot table with this knowledge.
 
 
 
-\## Day 2
+## Day 2
 
 
 
 What I remembered easily:
 
-\- Absolute references
+- Absolute references
 
-\- SUM
+- SUM
 
-\- Basic table layout
+- Basic table layout
 
-\- XLOOKUP and how to retrieve information from outside tables
+- XLOOKUP and how to retrieve information from outside tables
 
-\-. the use of F2 to edit a cell and F4 to make a cell's value absolute when using a function with an array of cells
+-. the use of F2 to edit a cell and F4 to make a cell's value absolute when using a function with an array of cells
 
 
 
 What I had to think about:
 
-\- Percentage formula
+- Percentage formula
 
-\- Column organization
+- Column organization
 
 
 
-\## Day 3
+## Day 3
 
 What I learned:
 
-\- COUNT counts numeric cells only.
+- COUNT counts numeric cells only.
 
-\- COUNTA counts all non-empty cells.
+- COUNTA counts all non-empty cells.
 
-\- ROWS counts the number of rows, regardless of contents.
+- ROWS counts the number of rows, regardless of contents.
 
-\- Choose functions based on the business question, not on which one is "more powerful."
+- Choose functions based on the business question, not on which one is "more powerful."
 
-\- Dynamic arrays spill automatically; use # to reference the entire spill range.
+- Dynamic arrays spill automatically; use # to reference the entire spill range.
 
-\- SORT(UNIQUE(...)) is generally more efficient than UNIQUE(SORT(...)) because duplicates are removed before sorting.
+- SORT(UNIQUE(...)) is generally more efficient than UNIQUE(SORT(...)) because duplicates are removed before sorting.
 
-\- Think in terms of business problems first, formulas second.
+- Think in terms of business problems first, formulas second.
 
 
 
-\## Day 4
+## Day 4
 
 Focused on understanding the logic behind array formulas instead of learning new functions.
 
 
 
-\### Key takeaways
+### Key takeaways
 
-\- `IF` does not perform the logical test—it only decides what to return based on TRUE/FALSE.
+- `IF` does not perform the logical test—it only decides what to return based on TRUE/FALSE.
 
-\- `+` works as OR, `\*` works as AND.
+- `+` works as OR, `\*` works as AND.
 
-\- Parentheses change the meaning of logical expressions (same principle as PEMDAS).
+- Parentheses change the meaning of logical expressions (same principle as PEMDAS).
 
-\- Before choosing a formula, think about the business logic:
+- Before choosing a formula, think about the business logic:
 
 &#x20; - If conditions cannot overlap (e.g. 2024 OR 2025), separate `COUNTIFS` + addition is fine.
 
@@ -78,7 +78,7 @@ Focused on understanding the logic behind array formulas instead of learning new
 
 
 
-\### Reflection
+### Reflection
 
 Today's biggest improvement wasn't learning a new function—it was learning to translate business questions into logical expressions before writing formulas.
 

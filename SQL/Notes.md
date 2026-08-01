@@ -2,9 +2,9 @@
 
 
 
-I learned how to use the select and where functions, along with operators like BETWEEN/NOT BETWEEN, AND/OR, IN/NOT IN and =,!=,<,<=,>,>=
+- I learned how to use the select and where functions, along with operators like BETWEEN/NOT BETWEEN, AND/OR, IN/NOT IN and =,!=,<,<=,>,>=
 
-Practiced and completed a few exercises using this knowledge.
+- Practiced and completed a few exercises using this knowledge.
 
 
 
@@ -12,15 +12,11 @@ Practiced and completed a few exercises using this knowledge.
 
 
 
-= means EXACT match
+- = means EXACT match
 
+- LIKE means PATTERN match
 
-
-LIKE means PATTERN match
-
-
-
-% means "anything can go here"
+- % means "anything can go here"
 
 
 
@@ -32,19 +28,19 @@ I learned:
 
 
 
-\- WHERE filters data based on conditions.
+- WHERE filters data based on conditions.
 
-\- ORDER BY sorts the returned results.
+- ORDER BY sorts the returned results.
 
-\- LIMIT restricts the number of rows returned.
+- LIMIT restricts the number of rows returned.
 
-\- Typical query flow:
+- Typical query flow:
 
 &#x20; SELECT → FROM → WHERE → ORDER BY → LIMIT
 
-\- Before writing SQL, define the business question you are trying to answer.
+- Before writing SQL, define the business question you are trying to answer.
 
-\- The same SQL concept can be explained differently depending on the audience (business vs. technical).
+- The same SQL concept can be explained differently depending on the audience (business vs. technical).
 
 
 
@@ -52,17 +48,17 @@ I learned:
 
 
 
-Reviewed SQLBolt Lesson 4 after realizing my mistake wasn't SQL syntax but requirement interpretation.
+- Reviewed SQLBolt Lesson 4 after realizing my mistake wasn't SQL syntax but requirement interpretation.
 
 
 
-\### Key takeaways
+### Key takeaways
 
-\- Read requirements carefully before writing the query.
+- Read requirements carefully before writing the query.
 
-\- "First" usually refers to the rows after applying `ORDER BY`, not the earliest records.
+- "First" usually refers to the rows after applying `ORDER BY`, not the earliest records.
 
-\- Always ask: "First according to what?"
+- Always ask: "First according to what?"
 
 
 
