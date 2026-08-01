@@ -1,4 +1,4 @@
-\#  Day 1
+##  Day 1
 
 
 
@@ -8,7 +8,7 @@ Practiced and completed a few exercises using this knowledge.
 
 
 
-\# Day 2
+## Day 2
 
 
 
@@ -24,7 +24,7 @@ LIKE means PATTERN match
 
 
 
-\# Day 3
+## Day 3
 
 
 
@@ -48,7 +48,7 @@ I learned:
 
 
 
-\# Day 4
+## Day 4
 
 
 
@@ -70,3 +70,16 @@ Reviewed SQLBolt Lesson 4 after realizing my mistake wasn't SQL syntax but requi
 
 A wrong answer doesn't always mean I misunderstood SQL. Sometimes I simply interpreted the business requirement differently. Finding the exact misunderstanding is part of becoming a better analyst.
 
+## Day 5
+
+Completed SQLBolt Lessons 5 and 6.
+
+### Key takeaways
+- `IN` checks whether a value belongs to a list of possible values.
+- `OFFSET` specifies how many sorted rows SQL should skip.
+- `JOIN` combines information from related tables.
+- The `ON` clause defines which rows from each table should match.
+- Without the correct join condition, SQL can produce many repeated combinations of rows.
+
+### Reflection
+Lesson 6 was straightforward once I understood that `ON` is what defines the relationship between the two tables. Forgetting it caused repeated movie names, but diagnosing the mistake helped clarify how joins work.

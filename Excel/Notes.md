@@ -1,4 +1,4 @@
-\# Day 1
+\## Day 1
 
 
 
@@ -10,7 +10,7 @@ I built and formatted a functional table and pivot table with this knowledge.
 
 
 
-\# Day 2
+\## Day 2
 
 
 
@@ -36,9 +36,7 @@ What I had to think about:
 
 
 
-\# Day 3
-
-
+\## Day 3
 
 What I learned:
 
@@ -58,9 +56,7 @@ What I learned:
 
 
 
-\# Day 4
-
-
+\## Day 4
 
 Focused on understanding the logic behind array formulas instead of learning new functions.
 
@@ -86,3 +82,6 @@ Focused on understanding the logic behind array formulas instead of learning new
 
 Today's biggest improvement wasn't learning a new function—it was learning to translate business questions into logical expressions before writing formulas.
 
+## Day 5
+
+- - Repeated Day 3's homework as a retrieval exercise. I made a few logical mistakes, but identified and corrected them independently because I understood what each formula was instructing Excel to do.
