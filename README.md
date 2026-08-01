@@ -44,7 +44,7 @@ Become a professional Data Analyst by mastering:
 
 \- \[x] Tables
 
-\- \[x] Pivot Tables
+\- \[ ] Pivot Tables
 
 \- \[x] XLOOKUP
 
