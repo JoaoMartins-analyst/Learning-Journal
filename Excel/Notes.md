@@ -85,3 +85,24 @@ Today's biggest improvement wasn't learning a new function—it was learning to 
 ## Day 5
 
 - - Repeated Day 3's homework as a retrieval exercise. I made a few logical mistakes, but identified and corrected them independently because I understood what each formula was instructing Excel to do.
+
+## Day 6 — Weekly Review
+
+Reviewed logical array formulas through retrieval and mixed business questions.
+
+### Key takeaways
+- Logical tests return TRUE/FALSE values.
+- `+` represents OR and `*` represents AND.
+- Parentheses determine which conditions belong together.
+- `IF` converts any non-zero logical result into the chosen output.
+- When OR conditions can overlap, separate counts may double-count the same row.
+- Text criteria such as `"Portugal"` and `"Razer"` require quotation marks.
+
+### Reflection
+I retained the main concepts well. My biggest challenge was expressing the logic precisely in English, rather than understanding how the formulas worked.
+
+## Day 7
+
+- Reviewed Week 1 concepts to confirm that nested logical expressions, joins, and pagination had been consolidated.
+- Learned that number formatting changes only how a value is displayed, while `ROUND` returns a new rounded value that later calculations can use.
+- Understood why displayed values may appear not to equal a displayed total: Excel still calculates with the full stored precision.
