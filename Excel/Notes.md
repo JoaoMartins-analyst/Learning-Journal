@@ -142,3 +142,61 @@ I retained the main concepts well. My biggest challenge was expressing the logic
 - Learned that `SWITCH` can choose between different results or arrays based on a selected value.
 - Practiced combining functions, such as using `SWITCH` to select a pricing table and `LOOKUP` to retrieve a value from it.
 - Reinforced choosing functions based on the business requirement rather than using the most powerful function automatically.
+
+## Day 12 — Comprehensive Formula Review
+
+- Reviewed Excel's Golden Rule: values that may change should be stored in labeled cells and referenced in formulas rather than hard-coded.
+- Reinforced the difference between relative, absolute, and mixed cell references.
+- Reviewed operator precedence and the importance of parentheses when controlling calculation order.
+- Reinforced the distinction between stored values and number formatting.
+- Reviewed different formula types, including copied formulas, dynamic arrays, scalar array formulas, and Excel Table formulas.
+- Learned that values which look numeric can still be stored as text and may need conversion using methods such as `--` or `VALUE()`.
+- Reinforced that correct data types are important for predictable calculations and analysis.
+- Practiced `ROUND`, `MROUND`, `CEILING.MATH`, and `FLOOR.MATH`.
+- Learned that rounding individual values before summing can produce a different result from summing full-precision values and rounding only the final total.
+- Reinforced choosing `XLOOKUP` for exact identifier matches and using `LOOKUP` appropriately for sorted threshold-style lookups.
+- Practiced combining formula logic with business rules rather than choosing functions only by syntax.
+
+## Week 3 — Boss Battle
+
+- Reviewed exact-match lookup logic and reinforced using `XLOOKUP` for identifiers where approximate matching would be inappropriate.
+- Reinforced the difference between a technical lookup failure and a business rule, including why missing product data should not automatically be converted to a zero price.
+- Reviewed the Golden Rule, absolute references, data-type conversion, `FILTER`, Boolean logic, and transaction-level rounding.
+- Identified requirement-reading as an important QA risk, particularly around words such as AND and OR.
+- Reinforced `LEFT JOIN` and `IS NULL` for identifying unmatched records.
+- Reviewed aggregates, result grain, `GROUP BY`, `WHERE`, and `HAVING`.
+- Reinforced the distinction between source fields and aggregate measures.
+- Practiced preserving the full requested population, including using `LEFT JOIN` and `COUNT(orders.order_id)` when customers with zero orders must remain in the result.
+- Added a requirement pre-flight check for future projects and Boss Battles: grain, required output, measure, filters, Boolean logic, and aggregation stage.
+
+## Day 14 — Excel
+
+- Learned how to create and use PivotTables, PivotCharts, and slicers.
+- Reinforced the difference between raw data and summarized information.
+- Practiced identifying dimensions and measures in PivotTables.
+- Learned that PivotTable grain can be defined by multiple dimensions, such as Month × SalesRep.
+- Reinforced that the business question determines whether a numeric field should use COUNT, SUM, AVG, etc.
+- Used Excel Tables as dynamic PivotTable sources; new rows are included after refreshing the PivotTable.
+- Practiced formatting PivotChart axes and setting custom bounds.
+
+## Day 15 — Excel
+
+- Completed ExcelIsFun Lesson 9 and homework on `GROUPBY` and `PIVOTBY`.
+- Learned that `GROUPBY` can use multiple row fields; multiple dimensions do not automatically require `PIVOTBY`.
+- `PIVOTBY` is mainly useful when a dimension needs to be displayed across columns or when a PivotBy-specific feature is required.
+- Practiced `PERCENTOF`, Data Validation dropdowns, text-number coercion with `+0` / `--`, and chart number/date formatting.
+- Checked the homework answer workbook and found that its chart skips several summary rows and its source Units data differs from the homework dataset.
+
+## Week 4 Boss Battle — Excel
+
+- Strong retrieval: PivotTable grain/refresh, formatting vs stored values, date display formatting, and Boolean `AND` logic.
+- Needed repair: `GROUPBY` vs `PIVOTBY`, full function syntax, and lookup vs aggregation.
+- `GROUPBY` can use multiple row fields; `PIVOTBY` is used when a dimension needs to be displayed across columns.
+- When multiple qualifying rows must be combined into one result, use aggregation such as `SUMIFS` or `GROUPBY`, not `XLOOKUP`.
+- Main QA habit: write the full executable formula instead of shorthand during assessments.
+
+## Day 17 - Excel
+
+- Used spaced retrieval to reinforce `GROUPBY` vs `PIVOTBY`, lookup vs aggregation, percentage formatting, and PivotTable grain.
+- `GROUPBY` is enough when dimensions remain in row fields; `PIVOTBY` is useful when a dimension is displayed across columns or a PIVOTBY-specific feature is needed.
+- Reinforced using `SUMIFS` instead of `XLOOKUP` when multiple qualifying rows must be aggregated.

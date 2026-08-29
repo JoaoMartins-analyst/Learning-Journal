@@ -140,3 +140,52 @@ The review exposed a real misunderstanding about `LIMIT` and `OFFSET`. I also le
   - Example: one row = one department is the grain.
   - Highest salary in that department is the measure.
 - Reinforced that the aggregate function must match the business question: `SUM` and `COUNT` may both return valid numbers but represent different things.
+
+## Day 12 — Aggregate Queries and HAVING
+
+- Reinforced aggregate functions such as `AVG`, `SUM`, `COUNT`, `MIN`, and `MAX`.
+- Reviewed that `GROUP BY` changes the result grain by creating one aggregate result per group.
+- Learned the distinction between `WHERE` and `HAVING`.
+  - `WHERE` filters individual source rows before grouping.
+  - `HAVING` filters grouped or aggregated results after grouping.
+- Practiced using `HAVING` for conditions based on aggregate values, such as `HAVING AVG(salary) > 3000`.
+- Learned that some conditions on grouping columns can technically be expressed using either `WHERE` or `HAVING`, but `WHERE` is generally clearer when the condition can be evaluated on the original rows.
+- Reinforced separating result grain from the measure being calculated.
+
+## Week 3 — Boss Battle
+
+- Reviewed exact-match lookup logic and reinforced using `XLOOKUP` for identifiers where approximate matching would be inappropriate.
+- Reinforced the difference between a technical lookup failure and a business rule, including why missing product data should not automatically be converted to a zero price.
+- Reviewed the Golden Rule, absolute references, data-type conversion, `FILTER`, Boolean logic, and transaction-level rounding.
+- Identified requirement-reading as an important QA risk, particularly around words such as AND and OR.
+- Reinforced `LEFT JOIN` and `IS NULL` for identifying unmatched records.
+- Reviewed aggregates, result grain, `GROUP BY`, `WHERE`, and `HAVING`.
+- Reinforced the distinction between source fields and aggregate measures.
+- Practiced preserving the full requested population, including using `LEFT JOIN` and `COUNT(orders.order_id)` when customers with zero orders must remain in the result.
+- Added a requirement pre-flight check for future projects and Boss Battles: grain, required output, measure, filters, Boolean logic, and aggregation stage.
+
+## Day 14 — SQL
+
+- Completed SQLBolt Lesson 12.
+- Reinforced SQL's conceptual execution order: FROM/JOIN → WHERE → GROUP BY → HAVING → SELECT → ORDER BY → LIMIT/OFFSET.
+- Learned why SELECT aliases are usually unavailable in WHERE/HAVING but can normally be used in ORDER BY.
+- Practiced combining JOIN, WHERE, GROUP BY, SUM, AVG, COUNT, and HAVING.
+- Reinforced that WHERE filters source rows while HAVING filters aggregated groups.
+- Misread a requirement asking for combined domestic + international sales as two separate totals; corrected the interpretation.
+- Continued practicing requirement parsing before writing the query.
+
+## Week 4 Boss Battle — SQL
+
+- Strong retrieval: `WHERE` vs `HAVING`, aggregation, `GROUP BY`, logical execution order, aliases, joins, grain, and requirement interpretation.
+- Repaired `LEFT JOIN` counting: use `COUNT(right_table.key)` instead of `COUNT(*)` when unmatched entities must remain at 0.
+- Base-table choice should follow the population the business requirement says must be preserved.
+- Main weakness remains small implementation mistakes after correct reasoning, such as missing clauses, typos, or incomplete syntax.
+- Main QA habit: state the logic first, then write the full executable query.
+
+## Day 17 - SQL
+
+- Learned `INSERT INTO` to add new rows to an existing table.
+- Auto-generated ID columns do not need to be manually supplied when the database generates them.
+- Explicitly naming columns in an `INSERT` makes the query clearer and less dependent on the table's current structure.
+- `SELECT` reads existing data, while `INSERT` changes stored data, so mistakes with `INSERT` carry greater data-integrity risk.
+- Continued practicing full executable SQL syntax instead of shorthand.
