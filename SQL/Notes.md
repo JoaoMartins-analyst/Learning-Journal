@@ -189,3 +189,22 @@ The review exposed a real misunderstanding about `LIMIT` and `OFFSET`. I also le
 - Explicitly naming columns in an `INSERT` makes the query clearer and less dependent on the table's current structure.
 - `SELECT` reads existing data, while `INSERT` changes stored data, so mistakes with `INSERT` carry greater data-integrity risk.
 - Continued practicing full executable SQL syntax instead of shorthand.
+
+## Day 18 - SQL
+
+- Learned `UPDATE` to modify existing values and `DELETE` to remove rows.
+- `WHERE` determines which rows are affected; omitting it can modify or delete the entire table.
+- Practiced verifying destructive conditions with `SELECT` before executing them.
+- To remove one field value while keeping the row, use `UPDATE ... SET column = NULL`.
+- Learned to escape apostrophes inside SQL strings by doubling them, for example `'O''Brien'`.
+- Reinforced the higher data-integrity risk of SQL commands that modify stored data.
+
+## Day 19 - SQL
+
+- Used integrated retrieval combining joins, filters, aggregation, `GROUP BY`, `HAVING`, aliases, ordering, NULL behavior, and population-preserving joins.
+- Reinforced using `LEFT JOIN` with `COUNT(right_table.key)` to preserve zero-match entities correctly.
+- Practiced verifying destructive conditions with `SELECT` before `DELETE`.
+- Learned `CREATE TABLE`, column data types, and constraints such as `PRIMARY KEY`, `NOT NULL`, and `UNIQUE`.
+- `IF NOT EXISTS` prevents duplicate table creation but does not modify an existing table schema.
+- Repaired the distinction between `PRIMARY KEY` and auto-generated IDs: a primary key does not automatically imply `AUTO_INCREMENT`.
+

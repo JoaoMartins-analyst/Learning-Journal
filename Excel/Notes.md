@@ -200,3 +200,17 @@ I retained the main concepts well. My biggest challenge was expressing the logic
 - Used spaced retrieval to reinforce `GROUPBY` vs `PIVOTBY`, lookup vs aggregation, percentage formatting, and PivotTable grain.
 - `GROUPBY` is enough when dimensions remain in row fields; `PIVOTBY` is useful when a dimension is displayed across columns or a PIVOTBY-specific feature is needed.
 - Reinforced using `SUMIFS` instead of `XLOOKUP` when multiple qualifying rows must be aggregated.
+
+## Day 18 - Excel
+
+- Used spaced retrieval to reinforce `GROUPBY`, grain, and conditional aggregation with `AVERAGEIFS`.
+- Reinforced that normal `GROUPBY` output has row grain, while pivot-style cross-tabs use detailed value-cell grain.
+- Continued choosing the simplest aggregation tool that directly answers the business requirement.
+
+## Day 19 - Excel
+
+- Used a longer integrated retrieval block to revisit older Month 1 material before the project.
+- Reinforced lookup vs aggregation: `XLOOKUP` retrieves one matching record, while `SUMIFS` / `GROUPBY` combine multiple qualifying rows.
+- Revisited overnight time calculations with `MOD` and Boolean logic using `+` for OR and `*` for AND.
+- Reinforced row grain vs detailed value-cell grain and the use of `GROUPBY` for dynamic grouped summaries.
+- Main repair areas: `MOD` syntax, XLOOKUP direction across table grains, and writing full executable formulas.
