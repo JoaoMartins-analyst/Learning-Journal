@@ -214,3 +214,11 @@ I retained the main concepts well. My biggest challenge was expressing the logic
 - Revisited overnight time calculations with `MOD` and Boolean logic using `+` for OR and `*` for AND.
 - Reinforced row grain vs detailed value-cell grain and the use of `GROUPBY` for dynamic grouped summaries.
 - Main repair areas: `MOD` syntax, XLOOKUP direction across table grains, and writing full executable formulas.
+
+## Day 20 - Excel
+
+- Used broad integrated retrieval across older Month 1 Excel material before the project.
+- Reinforced many-to-one lookup direction: each transaction can safely retrieve attributes from a unique master record, while `XLOOKUP` should not collapse multiple matching transaction rows.
+- Revisited inclusive date calculations, formatting vs `ROUND`, absolute references, structured references, and dynamic-array spilling.
+- Reinforced `FILTER` + `SORT`, Boolean conditions, and spill-range references such as `G2#`.
+- Main retrieval gaps: exact syntax for older formulas, current-row structured references, and distinguishing table propagation from dynamic-array spilling.

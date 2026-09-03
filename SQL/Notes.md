@@ -208,3 +208,12 @@ The review exposed a real misunderstanding about `LIMIT` and `OFFSET`. I also le
 - `IF NOT EXISTS` prevents duplicate table creation but does not modify an existing table schema.
 - Repaired the distinction between `PRIMARY KEY` and auto-generated IDs: a primary key does not automatically imply `AUTO_INCREMENT`.
 
+## Day 20 - SQL
+
+- Used integrated retrieval combining joins, population/grain, aggregation, `WHERE`, `GROUP BY`, `HAVING`, aliases, and multi-column ordering.
+- Learned that sort direction such as `ASC` or `DESC` applies individually to each expression in `ORDER BY`.
+- Reinforced when `COUNT(*)` is safe and why `COUNT(right_table.key)` is needed with zero-match `LEFT JOIN` populations.
+- Learned `ALTER TABLE` to modify an existing table schema, including adding columns with `ADD COLUMN`.
+- Learned `DEFAULT` as the value used when a column value is omitted, not proof that the value is factually correct.
+- Reinforced the distinction between schema changes (`CREATE` / `ALTER`) and data changes (`INSERT` / `UPDATE` / `DELETE`).
+
